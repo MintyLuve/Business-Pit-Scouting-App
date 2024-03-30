@@ -2,10 +2,10 @@
     <!--General-->
     <string name="app_name">Business Pit Scouting</string>
     <string name="content_desc">content desc</string>
-    <string name="default_text">Empty\nBox</string>
     <string name="default_type">Type Here…</string>
-    <string name="default_number">0</string>
-    <string name="submit_data">Submit Data?</string>
+    <string name="submit">Submit</string>
+    <string name="submit_data">Are You Sure?</string>
+    <string name="scouting_header">Scouting</string>
 
     <!--Start Page-->
     <string name="main_header_top">Business</string>
