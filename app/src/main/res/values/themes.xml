@@ -6,4 +6,51 @@
     </style>
 
     <style name="Theme.BusinessPitScouting" parent="Base.Theme.BusinessPitScouting" />
+
+    <style name="header_text_dark" parent="Widget.AppCompat.TextView">
+        <item name="autoSizeTextType">uniform</item>
+        <item name="android:gravity">center</item>
+        <item name="fontFamily">@font/helvetica_bold</item>
+        <item name="android:textColor">@color/textGrey</item>
+    </style>
+
+    <style name="header_text_light" parent="Widget.AppCompat.TextView">
+        <item name="autoSizeTextType">uniform</item>
+        <item name="android:gravity">center</item>
+        <item name="fontFamily">@font/helvetica_bold</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="info_input_text" parent="Widget.AppCompat.TextView">
+        <item name="autoSizeTextType">uniform</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textAlignment">center</item>
+        <item name="fontFamily">@font/helvetica_bold</item>
+        <item name="android:textColor">@color/textGrey</item>
+    </style>
+
+    <style name="info_input_type" parent="Widget.AppCompat.TextView">
+        <item name="android:padding">10dp</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/textGrey</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:hint">@string/default_type</item>
+    </style>
+
+    <style name="src_buttons" parent="Widget.AppCompat.ImageButton">
+        <item name="contentDescription">@string/content_desc</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+
+    <style name="misc_text" parent="Widget.AppCompat.TextView">
+        <item name="autoSizeTextType">uniform</item>
+        <item name="android:textColor">@color/textGrey</item>
+        <item name="android:gravity">center</item>
+    </style>
+
 </resources>

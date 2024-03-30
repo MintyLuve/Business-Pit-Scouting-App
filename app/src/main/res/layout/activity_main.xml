@@ -1,18 +1,116 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/froBlue"
+    android:weightSum="5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="0.8"
+        android:weightSum="2">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="@string/main_header_top"
+            style="@style/header_text_light"
+            android:layout_weight="1"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="@string/main_header_bot"
+            style="@style/header_text_light"
+            android:layout_weight="1"/>
+        <ImageView
+            android:layout_width="267dp"
+            android:layout_height="5dp"
+            android:background="@drawable/dotted_line"
+            android:backgroundTint="@color/white"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/content_desc"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/box_background"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_weight="1.7"
+        android:weightSum="5">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="@string/name"
+            style="@style/info_input_text"
+            android:layout_weight="2"/>
+        <EditText
+            android:id="@+id/nameType"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:hint="@string/default_type"
+            android:background="@color/transparent"
+            style="@style/info_input_type"
+            android:padding="20dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/box_background"
+        android:orientation="vertical"
+        android:layout_weight="1.7"
+        android:weightSum="5">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="@string/team_num"
+            style="@style/info_input_text"
+            android:layout_weight="2"/>
+        <AutoCompleteTextView
+            android:id="@+id/teamType"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:hint="@string/default_type"
+            android:background="@drawable/dropdown_background"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="3"
+            android:inputType="number" />
+
+    </LinearLayout>
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:id="@+id/startButton"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/box_background_grey"
+        android:text="@string/start_scouting"
+        android:padding="20dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="0.8"
+        style="@style/header_text_dark"
+        android:clickable="true"
+        android:focusable="true" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

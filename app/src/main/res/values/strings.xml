@@ -1,3 +1,29 @@
 <resources>
-    <string name="app_name">BusinessPitScouting</string>
+    <!--General-->
+    <string name="app_name">Business Pit Scouting</string>
+    <string name="content_desc">content desc</string>
+    <string name="default_text">Empty\nBox</string>
+    <string name="default_type">Type Here…</string>
+    <string name="default_number">0</string>
+    <string name="submit_data">Submit Data?</string>
+
+    <!--Start Page-->
+    <string name="main_header_top">Business</string>
+    <string name="main_header_bot">Pit Scouting</string>
+    <string name="name">Scouter\'\s Name:</string>
+    <string name="team_num">Team Number:</string>
+    <string name="start_scouting">Start Scouting</string>
+
+    <!--Questions-->
+    <string name="q_1">How do you split up or assign roles?</string>
+    <string name="q_2">Do you have assigned leads? If so what are they?</string>
+    <string name="q_3">Do you have a video production team? If so what editing software do you use?</string>
+    <string name="q_4">What are your main ways of gaining sponsors?</string>
+    <string name="q_5">Do you have fundraisers? If so what are they?</string>
+    <string name="q_6">What do you do for team sustainability?</string>
+    <string name="q_7">What are you currently doing for imagery? Is it team specific or season specific?</string>
+    <string name="q_8">How do you gain and/or maintain mentors?</string>
+    <string name="q_9">Do you host any events or projects during offseason/summer?</string>
+    <string name="q_10">What is your main way of gaining and keeping new members?</string>
+
 </resources>
