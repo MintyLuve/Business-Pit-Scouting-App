@@ -3,7 +3,7 @@ package com.fro.businesspitscouting;
 public class ResetValues {
     public void clearData() {
         Values.sc_name = "";
-        Values.teamNum = -1;
+        Values.teamNum = 0;
         Values.q1 = "";
         Values.q2 = "";
         Values.q3 = "";
