@@ -6,7 +6,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".MainActivity"
     android:orientation="vertical"
-    android:background="@color/lightBlue">
+    android:background="@color/lightBlue"
+    android:scrollbarSize="10dp"
+    android:fadeScrollbars="false">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
