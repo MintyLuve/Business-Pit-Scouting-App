@@ -26,4 +26,69 @@
     <string name="q_9">Do you host any events or projects during offseason/summer?</string>
     <string name="q_10">What is your main way of gaining and keeping new members?</string>
 
+    <!--Team numbers-->
+    <string-array name="team_numbers">
+        <item>11</item>
+        <item>56</item>
+        <item>75</item>
+        <item>102</item>
+        <item>103</item>
+        <item>219</item>
+        <item>222</item>
+        <item>223</item>
+        <item>272</item>
+        <item>293</item>
+        <item>316</item>
+        <item>321</item>
+        <item>341</item>
+        <item>365</item>
+        <item>427</item>
+        <item>484</item>
+        <item>555</item>
+        <item>714</item>
+        <item>834</item>
+        <item>1089</item>
+        <item>1168</item>
+        <item>1218</item>
+        <item>1257</item>
+        <item>1279</item>
+        <item>1391</item>
+        <item>1403</item>
+        <item>1640</item>
+        <item>1676</item>
+        <item>1807</item>
+        <item>1811</item>
+        <item>1923</item>
+        <item>2191</item>
+        <item>2495</item>
+        <item>2539</item>
+        <item>2590</item>
+        <item>2607</item>
+        <item>2720</item>
+        <item>2722</item>
+        <item>3142</item>
+        <item>3314</item>
+        <item>3637</item>
+        <item>4285</item>
+        <item>4342</item>
+        <item>4361</item>
+        <item>4573</item>
+        <item>5181</item>
+        <item>5401</item>
+        <item>5438</item>
+        <item>5438</item>
+        <item>5684</item>
+        <item>5895</item>
+        <item>5992</item>
+        <item>6226</item>
+        <item>6921</item>
+        <item>7045</item>
+        <item>7110</item>
+        <item>7414</item>
+        <item>8513</item>
+        <item>9015</item>
+        <item>9027</item>
+        <item>9094</item>
+    </string-array>
+
 </resources>
