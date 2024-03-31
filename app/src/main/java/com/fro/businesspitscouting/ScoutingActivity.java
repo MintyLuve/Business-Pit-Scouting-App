@@ -38,7 +38,7 @@ public class ScoutingActivity extends AppCompatActivity {
                     @Override
                     public void onClick(View v) {
                         frame.setVisibility(View.GONE);
-                        /*Calls submitJSON class and submits all data
+                        //Calls submitJSON class and submits all data
                         SubmitJSON submitJSON = new SubmitJSON();
 
                         submitJSON.submitData();
@@ -46,7 +46,7 @@ public class ScoutingActivity extends AppCompatActivity {
 
                         //Calls ResetValues class and clears all data
                         ResetValues resetValues = new ResetValues();
-                        resetValues.clearData();*/
+                        resetValues.clearData();
 
                         startActivity(new Intent(getApplicationContext(), MainActivity.class));
                     }
